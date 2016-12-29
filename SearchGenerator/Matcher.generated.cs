@@ -60,6 +60,8 @@ namespace SearchGenerator
             WriteLiteral(Environment.NewLine);
             WriteLiteral(@"    using Search.NaiveSolution;");
             WriteLiteral(Environment.NewLine);
+            WriteLiteral(@"    using SearchTypes;");
+            WriteLiteral(Environment.NewLine);
             WriteLiteral(Environment.NewLine);
             WriteLiteral(@"    public class GenMatcher");
             Write(i);
@@ -82,7 +84,7 @@ namespace SearchGenerator
             WriteLiteral(@"        }");
             WriteLiteral(Environment.NewLine);
             WriteLiteral(Environment.NewLine);
-            WriteLiteral(@"        public bool Match(Post post)");
+            WriteLiteral(@"        public bool Match(ref Post post)");
             WriteLiteral(Environment.NewLine);
             WriteLiteral(@"        {");
             WriteLiteral(Environment.NewLine);

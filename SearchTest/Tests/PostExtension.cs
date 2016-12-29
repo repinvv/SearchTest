@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using SearchTest.Search;
 using SearchTest.Search.NaiveSolution;
+using SearchTypes;
 
 namespace SearchTest.Tests
 {

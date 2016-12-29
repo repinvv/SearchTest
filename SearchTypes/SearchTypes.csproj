@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4624B3A4-9C18-467B-9FC0-0BB7EE651B76}</ProjectGuid>
+    <ProjectGuid>{96A82112-DA71-45B1-AD3A-A934ECE4A27C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SearchGenerator</RootNamespace>
-    <AssemblyName>SearchGenerator</AssemblyName>
+    <RootNamespace>SearchTypes</RootNamespace>
+    <AssemblyName>SearchTypes</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -16,7 +16,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\output\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -24,7 +24,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\output\</OutputPath>
+    <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -40,40 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Flag.cs" />
-    <Compile Include="GeneratedFile.cs" />
-    <Compile Include="Matcher.generated.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Matcher.rzr</DependentUpon>
-    </Compile>
-    <Compile Include="MatchersGenerator.cs" />
-    <Compile Include="SearchGeneration.cs" />
+    <Compile Include="Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Switch.generated.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Switch.rzr</DependentUpon>
-    </Compile>
-    <Compile Include="SwitchGenerator.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Matcher.rzr">
-      <CustomToolNamespace>SearchGenerator</CustomToolNamespace>
-      <Generator>SharpRazor</Generator>
-      <LastGenOutput>Matcher.generated.cs</LastGenOutput>
-    </None>
-    <None Include="Switch.rzr">
-      <CustomToolNamespace>SearchGenerator</CustomToolNamespace>
-      <Generator>SharpRazor</Generator>
-      <LastGenOutput>Switch.generated.cs</LastGenOutput>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SearchTypes\SearchTypes.csproj">
-      <Project>{96A82112-DA71-45B1-AD3A-A934ECE4A27C}</Project>
-      <Name>SearchTypes</Name>
-    </ProjectReference>
+    <Compile Include="SearchCriteria.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

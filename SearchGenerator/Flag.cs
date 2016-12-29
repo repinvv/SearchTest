@@ -1,9 +1,13 @@
-﻿namespace SearchGenerator
+﻿using System;
+using System.Linq.Expressions;
+using SearchTypes;
+
+namespace SearchGenerator
 {
     public class Flag
     {
-        public string Name { get; set; }
+        public Expression<Func<SearchCriteria, bool>>  Name { get; set; }
 
-        public string Condition { get; set; }
+        public Expression<Func<Post, bool>>  Condition { get; set; }
     }
 }

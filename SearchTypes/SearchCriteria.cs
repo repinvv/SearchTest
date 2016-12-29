@@ -1,4 +1,4 @@
-﻿namespace SearchTest.Search
+﻿namespace SearchTypes
 {
     public class SearchCriteria
     {

@@ -1,4 +1,6 @@
-﻿namespace SearchTest.Search.NaiveSolution
+﻿using SearchTypes;
+
+namespace SearchTest.Search.NaiveSolution
 {
     public class SearchRoot : ISearch
     {

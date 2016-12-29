@@ -2,6 +2,7 @@
 namespace SearchTest.Search.GeneratedSolution
 {
 	using Search.NaiveSolution;
+	using SearchTypes;
 
     public class GenMatcher@i : SearchCriteria, IMatcher
 	{
@@ -12,7 +13,7 @@ namespace SearchTest.Search.GeneratedSolution
             BountiesOnly = criteria.BountiesOnly;
         }
 
-		public bool Match(Post post)
+		public bool Match(ref Post post)
 		{
 	@foreach(var flag in flags){
 			if(post.@flag.Condition) return false;

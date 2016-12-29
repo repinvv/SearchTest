@@ -1,7 +1,6 @@
-﻿namespace SearchTest.Search
+﻿namespace SearchTypes
 {
-    
-    public unsafe struct Post
+    public struct Post
     {
         public int Id { get; set; }
 
@@ -10,7 +9,5 @@
         public int AnswerCount { get; set; }
 
         public int BountyAmount { get; set; }
-
-        public fixed char Dummy [20]; // simulate structure size
     }
 }

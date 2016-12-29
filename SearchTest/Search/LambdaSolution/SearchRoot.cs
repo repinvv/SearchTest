@@ -1,4 +1,5 @@
 ﻿using SearchTest.Search.NaiveSolution;
+using SearchTypes;
 
 namespace SearchTest.Search.LambdaSolution
 {

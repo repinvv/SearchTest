@@ -4,12 +4,13 @@ using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SearchTest.Search;
 using SearchTest.Search.NaiveSolution;
+using SearchTypes;
 
 namespace SearchTest.Tests
 {
     public class PostCreation
     {
-        const int staticPostsAmount = 30000000;
+        const int staticPostsAmount = 100000000;
         const int positiveThreshold = 100;
         const int randomRange = 10000;
         private static Post[] perfPosts;

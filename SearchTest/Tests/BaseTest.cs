@@ -5,6 +5,7 @@ using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SearchTest.Search;
 using SearchTest.Search.NaiveSolution;
+using SearchTypes;
 
 namespace SearchTest.Tests
 {

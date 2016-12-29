@@ -2,6 +2,7 @@ namespace SearchTest.Search.GeneratedSolution
 {
     using Search.NaiveSolution;
     using System;
+    using SearchTypes;
 
     public static class Switch
     {

@@ -1,6 +1,7 @@
 namespace SearchTest.Search.GeneratedSolution
 {
     using Search.NaiveSolution;
+    using SearchTypes;
 
     public class GenMatcher4 : SearchCriteria, IMatcher
     {

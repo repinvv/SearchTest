@@ -60,6 +60,8 @@ namespace SearchGenerator
             WriteLiteral(Environment.NewLine);
             WriteLiteral(@"    using System;");
             WriteLiteral(Environment.NewLine);
+            WriteLiteral(@"    using SearchTypes;");
+            WriteLiteral(Environment.NewLine);
             WriteLiteral(Environment.NewLine);
             WriteLiteral(@"    public static class Switch");
             WriteLiteral(Environment.NewLine);
