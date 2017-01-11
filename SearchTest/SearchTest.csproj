@@ -30,6 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
@@ -54,10 +55,76 @@
     <Compile Include="Search\GeneratedSolution\GenMatcher1.cs">
       <DependentUpon>GenFiles.tt</DependentUpon>
     </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher10.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher11.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher12.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher13.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher14.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher15.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher16.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher17.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher18.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher19.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
     <Compile Include="Search\GeneratedSolution\GenMatcher2.cs">
       <DependentUpon>GenFiles.tt</DependentUpon>
     </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher20.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher21.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher22.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher23.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher24.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher25.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher26.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher27.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher28.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher29.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
     <Compile Include="Search\GeneratedSolution\GenMatcher3.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher30.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher31.cs">
       <DependentUpon>GenFiles.tt</DependentUpon>
     </Compile>
     <Compile Include="Search\GeneratedSolution\GenMatcher4.cs">
@@ -72,11 +139,19 @@
     <Compile Include="Search\GeneratedSolution\GenMatcher7.cs">
       <DependentUpon>GenFiles.tt</DependentUpon>
     </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher8.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search\GeneratedSolution\GenMatcher9.cs">
+      <DependentUpon>GenFiles.tt</DependentUpon>
+    </Compile>
     <Compile Include="Search\GeneratedSolution\SearchRoot.cs" />
     <Compile Include="Search\GeneratedSolution\Switch.cs">
       <DependentUpon>GenFiles.tt</DependentUpon>
     </Compile>
     <Compile Include="Search\LambdaSolution\LambdaMatcher.cs" />
+    <Compile Include="Search\LambdaSolution\MatcherDelegate.cs" />
+    <Compile Include="Search\LambdaSolution\SearchLoop2.cs" />
     <Compile Include="Search\LambdaSolution\SearchRoot.cs" />
     <Compile Include="Search\NaiveSolution\IMatcher.cs" />
     <Compile Include="Search\NaiveSolution\Matcher.cs" />

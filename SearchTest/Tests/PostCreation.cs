@@ -62,12 +62,15 @@ namespace SearchTest.Tests
             var random = new Random();
             for (int i = 0; i < perfPosts.Length; i++)
             {
+                //IsPositive(random)
                 perfPosts[i] = new Post
                 {
                     Id = i,
-                    AnswerCount = CreateAnswerCount(IsPositive(random)),
-                    BountyAmount = CreateBounty(IsPositive(random)),
-                    IsClosed = CreateClosed(IsPositive(random))
+                    AnswerCount = CreateAnswerCount(true),
+                    BountyAmount = CreateBounty(true),
+                    IsClosed = CreateClosed(true),
+                    NewFlagValue1 = 4,
+                    NewFlagValue2 = 4
                 };
             }
             return perfPosts;
@@ -100,7 +103,7 @@ namespace SearchTest.Tests
                 new SearchCriteria {BountiesOnly = true},
                 new SearchCriteria {NoAnswerOnly = true},
                 new SearchCriteria {NonClosedOnly = true},
-                new SearchCriteria {NonClosedOnly = true, NoAnswerOnly = true, BountiesOnly = true},
+                new SearchCriteria {NonClosedOnly = true, NoAnswerOnly = true, BountiesOnly = true, NewFlag1 = true, NewFlag2 = true},
             };
         }
 

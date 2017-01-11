@@ -82,7 +82,7 @@ namespace SearchGenerator
             WriteLiteral(@"        }");
             WriteLiteral(Environment.NewLine);
             WriteLiteral(Environment.NewLine);
-            WriteLiteral(@"        public bool Match(Post post)");
+            WriteLiteral(@"        public bool Match(ref Post post)");
             WriteLiteral(Environment.NewLine);
             WriteLiteral(@"        {");
             WriteLiteral(Environment.NewLine);
