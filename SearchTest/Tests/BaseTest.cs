@@ -48,7 +48,7 @@ namespace SearchTest.Tests
         {
             SearchResult result = null;
             TimeSpan elapsed = TimeSpan.MaxValue;
-            for (int j = 0; j < 10; j++)
+            for (int j = 0; j < 3; j++)
             {
                 var watch = Stopwatch.StartNew();
                 result = target.Search(performance, perfCriteria);

@@ -66,9 +66,9 @@ namespace SearchTest.Tests
                 perfPosts[i] = new Post
                 {
                     Id = i,
-                    AnswerCount = CreateAnswerCount(true),
-                    BountyAmount = CreateBounty(true),
-                    IsClosed = CreateClosed(true),
+                    AnswerCount = CreateAnswerCount(IsPositive(random)),
+                    BountyAmount = CreateBounty(IsPositive(random)),
+                    IsClosed = CreateClosed(IsPositive(random)),
                     NewFlagValue1 = 4,
                     NewFlagValue2 = 4
                 };
@@ -103,7 +103,7 @@ namespace SearchTest.Tests
                 new SearchCriteria {BountiesOnly = true},
                 new SearchCriteria {NoAnswerOnly = true},
                 new SearchCriteria {NonClosedOnly = true},
-                new SearchCriteria {NonClosedOnly = true, NoAnswerOnly = true, BountiesOnly = true, NewFlag1 = true, NewFlag2 = true},
+                new SearchCriteria {NonClosedOnly = true, NoAnswerOnly = true, BountiesOnly = true},
             };
         }
 
