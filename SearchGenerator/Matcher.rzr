@@ -3,15 +3,8 @@ namespace SearchTest.Search.GeneratedSolution
 {
 	using Search.NaiveSolution;
 
-    public class GenMatcher@i : SearchCriteria, IMatcher
+    public class GenMatcher@i : IMatcher
 	{
-	    public GenMatcher@(i)(SearchCriteria criteria)
-        {
-            NonClosedOnly = criteria.NonClosedOnly;
-            NoAnswerOnly = criteria.NoAnswerOnly;
-            BountiesOnly = criteria.BountiesOnly;
-        }
-
 		public bool Match(ref Post post)
 		{
 	@foreach(var flag in flags){

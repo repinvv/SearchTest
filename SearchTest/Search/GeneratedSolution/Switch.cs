@@ -36,69 +36,69 @@ namespace SearchTest.Search.GeneratedSolution
             switch(matcherId)
             {
                 case 31:
-                    return new GenMatcher31(criteria);
+                    return new GenMatcher31();
                 case 30:
-                    return new GenMatcher30(criteria);
+                    return new GenMatcher30();
                 case 29:
-                    return new GenMatcher29(criteria);
+                    return new GenMatcher29();
                 case 28:
-                    return new GenMatcher28(criteria);
+                    return new GenMatcher28();
                 case 27:
-                    return new GenMatcher27(criteria);
+                    return new GenMatcher27();
                 case 26:
-                    return new GenMatcher26(criteria);
+                    return new GenMatcher26();
                 case 25:
-                    return new GenMatcher25(criteria);
+                    return new GenMatcher25();
                 case 24:
-                    return new GenMatcher24(criteria);
+                    return new GenMatcher24();
                 case 23:
-                    return new GenMatcher23(criteria);
+                    return new GenMatcher23();
                 case 22:
-                    return new GenMatcher22(criteria);
+                    return new GenMatcher22();
                 case 21:
-                    return new GenMatcher21(criteria);
+                    return new GenMatcher21();
                 case 20:
-                    return new GenMatcher20(criteria);
+                    return new GenMatcher20();
                 case 19:
-                    return new GenMatcher19(criteria);
+                    return new GenMatcher19();
                 case 18:
-                    return new GenMatcher18(criteria);
+                    return new GenMatcher18();
                 case 17:
-                    return new GenMatcher17(criteria);
+                    return new GenMatcher17();
                 case 16:
-                    return new GenMatcher16(criteria);
+                    return new GenMatcher16();
                 case 15:
-                    return new GenMatcher15(criteria);
+                    return new GenMatcher15();
                 case 14:
-                    return new GenMatcher14(criteria);
+                    return new GenMatcher14();
                 case 13:
-                    return new GenMatcher13(criteria);
+                    return new GenMatcher13();
                 case 12:
-                    return new GenMatcher12(criteria);
+                    return new GenMatcher12();
                 case 11:
-                    return new GenMatcher11(criteria);
+                    return new GenMatcher11();
                 case 10:
-                    return new GenMatcher10(criteria);
+                    return new GenMatcher10();
                 case 9:
-                    return new GenMatcher9(criteria);
+                    return new GenMatcher9();
                 case 8:
-                    return new GenMatcher8(criteria);
+                    return new GenMatcher8();
                 case 7:
-                    return new GenMatcher7(criteria);
+                    return new GenMatcher7();
                 case 6:
-                    return new GenMatcher6(criteria);
+                    return new GenMatcher6();
                 case 5:
-                    return new GenMatcher5(criteria);
+                    return new GenMatcher5();
                 case 4:
-                    return new GenMatcher4(criteria);
+                    return new GenMatcher4();
                 case 3:
-                    return new GenMatcher3(criteria);
+                    return new GenMatcher3();
                 case 2:
-                    return new GenMatcher2(criteria);
+                    return new GenMatcher2();
                 case 1:
-                    return new GenMatcher1(criteria);
+                    return new GenMatcher1();
                 case 0:
-                    return new GenMatcher0(criteria);
+                    return new GenMatcher0();
                 default: 
                     throw new Exception("should never happen");
             }

@@ -2,15 +2,8 @@ namespace SearchTest.Search.GeneratedSolution
 {
     using Search.NaiveSolution;
 
-    public class GenMatcher0 : SearchCriteria, IMatcher
+    public class GenMatcher0 : IMatcher
     {
-        public GenMatcher0(SearchCriteria criteria)
-        {
-            NonClosedOnly = criteria.NonClosedOnly;
-            NoAnswerOnly = criteria.NoAnswerOnly;
-            BountiesOnly = criteria.BountiesOnly;
-        }
-
         public bool Match(ref Post post)
         {
             return true;

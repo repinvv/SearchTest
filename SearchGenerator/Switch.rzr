@@ -23,7 +23,7 @@ namespace SearchTest.Search.GeneratedSolution
 			{
 	@for(int i = (int)Math.Pow(2, flags.Length) - 1; i >=0; i--){
 				case @i:
-					return new GenMatcher@(i)(criteria);
+					return new GenMatcher@(i)();
 	}
 				default: 
 					throw new Exception("should never happen");

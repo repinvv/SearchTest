@@ -102,7 +102,7 @@ namespace SearchGenerator
                 WriteLiteral(Environment.NewLine);
                 WriteLiteral(@"                    return new GenMatcher");
                 Write(i);
-                WriteLiteral(@"(criteria);");
+                WriteLiteral(@"();");
                 WriteLiteral(Environment.NewLine);
             }
             WriteLiteral(@"                default: ");
