@@ -6,8 +6,7 @@ namespace SearchTest.Search.GeneratedSolution
     {
         public SearchResult Search(Post[] index, SearchCriteria criteria)
         {
-            var matcher = Switch.GetMatcher(criteria);
-            return new SearchLoop().Search(index, matcher);
+            return Switch.Search(index, criteria);
         }
     }
 }

@@ -16,7 +16,7 @@ namespace SearchGenerator
             };
 
             var list = new List<GeneratedFile> {SwitchGenerator.GenerateSwitch(flags)};
-            list.AddRange(MatchersGenerator.Generate(flags));
+            list.AddRange(SearchersGenerator.Generate(flags));
             return list;
         }
     }

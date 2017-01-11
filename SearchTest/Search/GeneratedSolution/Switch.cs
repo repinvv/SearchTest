@@ -3,9 +3,9 @@ namespace SearchTest.Search.GeneratedSolution
     using Search.NaiveSolution;
     using System;
 
-    public static class Switch
+    public static class Switch 
     {
-        public static IMatcher GetMatcher(SearchCriteria criteria)
+        public static SearchResult Search(Post[] index, SearchCriteria criteria)
         {
             int matcherId = 0;
             if(criteria.NonClosedOnly)
@@ -36,69 +36,69 @@ namespace SearchTest.Search.GeneratedSolution
             switch(matcherId)
             {
                 case 31:
-                    return new GenMatcher31();
+                    return Search31.Search(index);
                 case 30:
-                    return new GenMatcher30();
+                    return Search30.Search(index);
                 case 29:
-                    return new GenMatcher29();
+                    return Search29.Search(index);
                 case 28:
-                    return new GenMatcher28();
+                    return Search28.Search(index);
                 case 27:
-                    return new GenMatcher27();
+                    return Search27.Search(index);
                 case 26:
-                    return new GenMatcher26();
+                    return Search26.Search(index);
                 case 25:
-                    return new GenMatcher25();
+                    return Search25.Search(index);
                 case 24:
-                    return new GenMatcher24();
+                    return Search24.Search(index);
                 case 23:
-                    return new GenMatcher23();
+                    return Search23.Search(index);
                 case 22:
-                    return new GenMatcher22();
+                    return Search22.Search(index);
                 case 21:
-                    return new GenMatcher21();
+                    return Search21.Search(index);
                 case 20:
-                    return new GenMatcher20();
+                    return Search20.Search(index);
                 case 19:
-                    return new GenMatcher19();
+                    return Search19.Search(index);
                 case 18:
-                    return new GenMatcher18();
+                    return Search18.Search(index);
                 case 17:
-                    return new GenMatcher17();
+                    return Search17.Search(index);
                 case 16:
-                    return new GenMatcher16();
+                    return Search16.Search(index);
                 case 15:
-                    return new GenMatcher15();
+                    return Search15.Search(index);
                 case 14:
-                    return new GenMatcher14();
+                    return Search14.Search(index);
                 case 13:
-                    return new GenMatcher13();
+                    return Search13.Search(index);
                 case 12:
-                    return new GenMatcher12();
+                    return Search12.Search(index);
                 case 11:
-                    return new GenMatcher11();
+                    return Search11.Search(index);
                 case 10:
-                    return new GenMatcher10();
+                    return Search10.Search(index);
                 case 9:
-                    return new GenMatcher9();
+                    return Search9.Search(index);
                 case 8:
-                    return new GenMatcher8();
+                    return Search8.Search(index);
                 case 7:
-                    return new GenMatcher7();
+                    return Search7.Search(index);
                 case 6:
-                    return new GenMatcher6();
+                    return Search6.Search(index);
                 case 5:
-                    return new GenMatcher5();
+                    return Search5.Search(index);
                 case 4:
-                    return new GenMatcher4();
+                    return Search4.Search(index);
                 case 3:
-                    return new GenMatcher3();
+                    return Search3.Search(index);
                 case 2:
-                    return new GenMatcher2();
+                    return Search2.Search(index);
                 case 1:
-                    return new GenMatcher1();
+                    return Search1.Search(index);
                 case 0:
-                    return new GenMatcher0();
+                    return Search0.Search(index);
                 default: 
                     throw new Exception("should never happen");
             }

@@ -61,11 +61,11 @@ namespace SearchGenerator
             WriteLiteral(@"    using System;");
             WriteLiteral(Environment.NewLine);
             WriteLiteral(Environment.NewLine);
-            WriteLiteral(@"    public static class Switch");
+            WriteLiteral(@"    public static class Switch ");
             WriteLiteral(Environment.NewLine);
             WriteLiteral(@"    {");
             WriteLiteral(Environment.NewLine);
-            WriteLiteral(@"        public static IMatcher GetMatcher(SearchCriteria criteria)");
+            WriteLiteral(@"        public static SearchResult Search(Post[] index, SearchCriteria criteria)");
             WriteLiteral(Environment.NewLine);
             WriteLiteral(@"        {");
             WriteLiteral(Environment.NewLine);
@@ -100,9 +100,9 @@ namespace SearchGenerator
                 Write(i);
                 WriteLiteral(@":");
                 WriteLiteral(Environment.NewLine);
-                WriteLiteral(@"                    return new GenMatcher");
+                WriteLiteral(@"                    return Search");
                 Write(i);
-                WriteLiteral(@"();");
+                WriteLiteral(@".Search(index);");
                 WriteLiteral(Environment.NewLine);
             }
             WriteLiteral(@"                default: ");

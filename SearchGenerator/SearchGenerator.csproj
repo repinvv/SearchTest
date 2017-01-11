@@ -42,12 +42,12 @@
   <ItemGroup>
     <Compile Include="Flag.cs" />
     <Compile Include="GeneratedFile.cs" />
-    <Compile Include="Matcher.generated.cs">
+    <Compile Include="Search.generated.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Matcher.rzr</DependentUpon>
+      <DependentUpon>Search.rzr</DependentUpon>
     </Compile>
-    <Compile Include="MatchersGenerator.cs" />
+    <Compile Include="SearchersGenerator.cs" />
     <Compile Include="SearchGeneration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Switch.generated.cs">
@@ -58,10 +58,10 @@
     <Compile Include="SwitchGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Matcher.rzr">
+    <None Include="Search.rzr">
       <CustomToolNamespace>SearchGenerator</CustomToolNamespace>
       <Generator>SharpRazor</Generator>
-      <LastGenOutput>Matcher.generated.cs</LastGenOutput>
+      <LastGenOutput>Search.generated.cs</LastGenOutput>
     </None>
     <None Include="Switch.rzr">
       <CustomToolNamespace>SearchGenerator</CustomToolNamespace>

@@ -12,7 +12,7 @@
                 if (matcher.Match(ref index[i]))
                 {
                     count++;
-                    if (count < results.Length)
+                    if (count <= results.Length)
                     {
                         results[count - 1] = index[i];
                     }
