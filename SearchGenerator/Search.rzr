@@ -1,0 +1,29 @@
+﻿@constructor(Flag[] flags, int i)
+namespace SearchTest.Search.GeneratedSolution
+{
+	using Search.NaiveSolution;
+
+    public static class Search@i
+	{
+		public static SearchResult Search(Post[] index)
+		{
+            int count = 0;
+            Post[] results = new Post[50];
+
+            for (int i = 0; i < index.Length; i++)
+            {
+			@foreach(var flag in flags){
+				if(index[i].@flag.Condition) continue;
+			}   
+
+                count++;
+                if (count <= results.Length)
+                {
+                    results[count - 1] = index[i];
+                }                
+            }
+
+            return new SearchResult {Count = count, Posts = results};
+		}
+	}
+}
